@@ -32,5 +32,13 @@ namespace MojaAplikacja
         {
             MessageBox.Show("Przycisk został kliknięty");
         }
+        private void Button_Client(Object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Przycisk został kliknięty");
+        }
+        private void Button_Ships(Object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Przycisk został kliknięty");
+        }
     }
 }

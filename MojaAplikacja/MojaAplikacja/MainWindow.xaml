@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:MojaAplikacja"
         mc:Ignorable="d"
-        Title="MainWindow" Height="550" Width="800">
+        Title="MainWindow" Height="500" Width="800">
     <Grid>
         <Grid.Background>
             <SolidColorBrush Color="#f3eae8" />
@@ -15,7 +15,7 @@
             Foreground="Red" 
             FontSize="30" 
             HorizontalAlignment="Center"
-            Margin="20"
+            Margin="0,20,0,0"
             >
         </TextBlock>
 
@@ -25,7 +25,7 @@
             Click="Button_Pracownik"  
             HorizontalAlignment="Center"
             VerticalAlignment="Top" 
-            Margin="130"
+            Margin="0,120,0,0"
             Foreground="#0049b4"
             FontWeight="Bold"
             Background="White"
@@ -38,7 +38,34 @@
             Click="Button_Order"  
             HorizontalAlignment="Center"
             VerticalAlignment="Top" 
-            Margin="180"
+            Margin="0,170,0,0"
+            Foreground="#0049b4"
+            FontWeight="Bold"
+            Background="White"
+            BorderBrush="Green"
+            BorderThickness="2">
+        </Button>
+        <Button 
+            Content="Dodaj Klienta"  
+            Height="40" Width="150"  
+            Click="Button_Client"  
+            HorizontalAlignment="Center"
+            VerticalAlignment="Top" 
+            Margin="0,220,0,0"
+            Foreground="#0049b4"
+            FontWeight="Bold"
+            Background="White"
+            BorderBrush="Green"
+            BorderThickness="2">
+        </Button>
+        
+        <Button 
+            Content="Dodaj Transport"  
+            Height="40" Width="150"  
+            Click="Button_Ships"  
+            HorizontalAlignment="Center"
+            VerticalAlignment="Top" 
+            Margin="0,270,0,0"
             Foreground="#0049b4"
             FontWeight="Bold"
             Background="White"
